@@ -122,7 +122,7 @@ echo "The Hiddify installation script will now be executed."
 echo "You will need to respond to its prompts directly during the installation process."
 read -p "Press Enter to begin the Hiddify installation..."
 
-bash <(curl -sL https://i.hiddify.com/release)
+bash <(curl https://i.hiddify.com/custom)
 
 echo "=================================================="
 echo "All server setup tasks are complete."
